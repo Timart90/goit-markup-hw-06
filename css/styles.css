@@ -271,12 +271,7 @@ body {
   display: block;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
-  color: var(--White-background);
   background-color: var(--Iris-Primary-Brand);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   border-radius: 4px;
   cursor: pointer;
   padding: 16px 32px;
@@ -294,6 +289,14 @@ body {
 .hero-btn:focus {
   background-color: var(--ocean);
   color: var(--cloud-Light);
+}
+
+.hero-btn-text {
+  color: var(--White-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 /**
@@ -735,7 +738,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: var(--White-background);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   line-height: 1.5;
 }
 
@@ -788,6 +791,14 @@ body {
 .btn-subscribe:hover,
 .btn-subscribe:focus {
   background-color: var(--ocean);
+}
+
+.btn-subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--White-background);
 }
 
 .footer-subscribe:focus {
@@ -882,7 +893,7 @@ body {
 
 .modal-text {
   display: block;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -940,7 +951,7 @@ body {
   width: 100%;
   height: 120px;
   padding: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
   resize: none;
   border-radius: 4px;
   outline: none;
