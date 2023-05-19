@@ -966,7 +966,7 @@ body {
 
 .form-agreement {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   /* justify-content: center; */
   gap: 8px;
   margin-bottom: 24px;
@@ -996,7 +996,6 @@ body {
 }
 
 .form-agreement-text {
-  display: flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
